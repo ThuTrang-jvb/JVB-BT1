@@ -1,0 +1,18 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    padding: 65px 563px ;
+}
+header {
+    background: #FFD900;
+    width: 1523px;
+    height: 350px;
+
+}
+h1 {
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}

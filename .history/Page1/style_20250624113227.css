@@ -1,0 +1,89 @@
+body {
+    margin:0;
+    padding: 0;
+}
+header {
+    background: #FFD900;
+    padding: 65px 563px 32px 131px;
+    box-sizing: border-box;
+    height: 350px;
+}
+h1 {
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+    width: 829px;
+    height: auto;
+
+}
+.vers {
+    font-family: SF Mono;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-left: 9px;
+    margin-bottom: 14px;
+}
+h3{
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+p {
+    font-family: SF Pro Text;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    max-width: 923px;
+    padding-left: 29px;
+}
+.main {
+    padding-left: 131px;
+    padding-bottom: 302px;
+    padding-top: 103px;
+}
+.border1, .border2, .border3  {
+    border-left: 6px solid black;
+    padding-left: 3px;
+}
+img {
+    padding-left: 29px;
+}
+.border1 {
+    margin-top: 26px;
+    margin-bottom: 90px;
+}
+.border2 {
+    margin-top: 26px;
+    margin-bottom: 80px;
+}
+.border3 {
+    margin-top: 24px;
+}
+.type1 {
+    width: 333.8832702636719px;
+    height: 50.220001220703125px;
+}
+.type2 {
+    width: 382.34869384765625px;
+    height: 48.06000518798828px;
+}
+.type3 {
+    width: 382.34869384765625px;
+    height: 48.06000518798828px;
+}
+.type4 {
+    width: 493.82196044921875;
+    height: 49.57200241088867;
+    top: 1642.44px;
+    left: 178.75px;
+
+}
+

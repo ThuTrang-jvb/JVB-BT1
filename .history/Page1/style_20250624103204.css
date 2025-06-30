@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    padding: 0;
+}
+header {
+    background: #FFD900;
+    padding: 65px 563px 32px 131px;
+    position: absolute;
+    height: 350px;
+}
+h1 {
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+    position: absolute;
+    width: 829px;
+    height: 239px;
+    top: 79px;
+    left: 131px;
+
+}
+.vers {
+    font-family: SF Mono;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-left: 9px;
+    gap: 14px;
+
+}
+h2{
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+p {
+    font-family: SF Pro Text;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}

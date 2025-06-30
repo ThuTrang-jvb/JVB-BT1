@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    padding-left: 0;
+    
+}
+header {
+    background: #FFD900;
+    width: auto;
+    height: auto;
+    padding: 65px 563px 32px 131px;;
+}
+h1 {
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+header p {
+    font-family: SF Mono;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    gap: 14px;
+    padding-left:9px;
+}

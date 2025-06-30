@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin: 0;
+    width: 1440px;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 476.59px;
+    padding: 52.54px 61px 40px 63.58px;
+}
+.header h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.nav {
+    font-family: New York Small;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 12%;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    gap: 34px;
+    padding-top: 6.46px ;
+}
+.title img {
+    width: 854px;
+    height: 533px;
+}
+.image img{
+    width: 304px;
+    height: 176px;
+}
+@media screen and (max-width: 767px) {
+    
+}

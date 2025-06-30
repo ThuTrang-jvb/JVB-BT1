@@ -1,0 +1,18 @@
+.header {
+    
+    width: 1440;
+    height: 133;
+    display: flex;
+    gap: 476.59px;
+}
+.nav {
+    font-family: New York Small;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 12%;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    gap: 31px;
+}

@@ -1,0 +1,338 @@
+ * {
+    margin: 0;
+ }
+.header {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 476.59px;
+    padding: 52.54px 61px 40px 63.58px;
+}
+.header h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  display: block;
+  border-radius: 2px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    padding-bottom: 40px;
+    padding-top: ;
+}
+.nav p {
+    position: relative;
+    font-family: New York Small;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 12%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+.nav p::after {
+    content: "";
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: #000;
+}
+hr {
+  width: 100vw;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}
+.title img {   
+    width: 854px;
+    height: 533px;
+    display: block;
+    padding-top: 76px;
+    padding-bottom: 44px;
+    margin: 0 auto;
+}
+.title h1 {
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 858px;
+    padding-bottom: 32px;
+}
+.title p {
+    font-family: SF Mono;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 592px;
+    margin: 0 auto;
+    padding-bottom: 34px;
+    
+}
+.title hr {
+    border: 2px solid #000000;
+    width: 640px;
+    display: block;
+    margin: 0 auto;
+}
+.articles h2 {
+    font-family: New York Extra Large;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 225px;
+    padding-top: 64px;
+    padding-bottom: 39px;
+    margin: 0 auto;
+}
+.image_desktop img{
+    width: 304px;
+    height: 176px;
+    
+}
+.image_desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: center;
+    gap: 28px;
+}
+.image p {
+    max-width: 262px;
+    padding-bottom: 64px;
+    font-family: SF Pro Display;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    margin: 0;
+}
+.image {
+    max-width: 304px;
+}
+.image_mobile {
+    display: none;
+}
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-bottom:32px;
+}
+.bold {
+    font-weight: 800;
+}
+.line {
+      font-family: SF Pro Text;
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      display: inline-flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      line-height: 28px;
+      max-width: 100%;
+      overflow: hidden;
+      letter-spacing: 2.8px;
+      white-space: nowrap;
+      padding-bottom: 105.12px;
+}
+.line span {
+    margin-right: 5px;
+}
+.footer h1 {
+    padding-bottom: 25.58px;
+}
+.para {
+    font-family: New York Small;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    max-width: 488px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+}
+.info {
+    display: flex;
+    justify-content: center; 
+    max-width: 209px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+}
+
+.info p {
+    margin: 0;
+    font-family: SF Pro Text;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-decoration: underline;
+    padding-right: 28px;
+}
+.logo {
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 25.58px;
+}
+.footer .year {
+    max-width: 178px;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 24px 20px;
+        gap: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    hr {
+        width: 100%;
+    }
+    .main {
+        padding: 52px 0 0 0;
+    }
+
+    .title img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    .title h1 {
+        font-size: 36px;
+        max-width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .title p {
+        font-size: 16px;
+        max-width: 90%;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .title hr {
+        width: 100%;
+        margin: 52px 0 56px 0;
+    }
+
+    .articles h2 {
+        font-size: 26px;
+        padding: 0 0 29px 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_desktop {
+        display: none;
+    }
+
+    .image_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .image_mobile .image {
+        margin-bottom: 42px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_mobile img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 0 0 20px 0;
+    }
+
+    .image_mobile p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .line {
+        flex-wrap: wrap;
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 32px;
+        justify-content: center;
+    }
+
+    .line span {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .logo {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
+
+    .para {
+        font-size: 14px;
+        padding: 0 20px 24px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .info {
+        justify-content: center;
+        gap: 16px;
+        font-size: 14px;
+        padding: 0 0 24px;
+        max-width: 100%;
+    }
+
+    .footer .year {
+        font-size: 12px;
+        padding: 0 16px;
+    }
+}
